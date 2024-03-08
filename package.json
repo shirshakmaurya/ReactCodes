@@ -1,0 +1,22 @@
+{
+  "name": "reactcodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirshakmaurya/ReactCodes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shirshakmaurya/ReactCodes/issues"
+  },
+  "homepage": "https://github.com/shirshakmaurya/ReactCodes#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
