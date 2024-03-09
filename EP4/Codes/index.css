@@ -23,7 +23,7 @@
   margin: 10px;
   padding: 5px;
   width: 200px;
-  height: 300px;
+  /* height: 300px; */
   box-sizing: border-box;
 }
 .res-card:hover {
