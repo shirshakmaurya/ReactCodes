@@ -1,4 +1,5 @@
 import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer";
 import { useState, useEffect } from "react";
 
 const Body = () => {
@@ -26,7 +27,7 @@ const Body = () => {
   };
 
   if (listOfRestaurant.length === 0) {
-    return <h1>Loading...</h1>;
+    return <Shimmer />;
   }
 
   return (
