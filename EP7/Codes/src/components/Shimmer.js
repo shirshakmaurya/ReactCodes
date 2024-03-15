@@ -1,20 +1,20 @@
 const Shimmer = () => {
   return (
-    <div class="shimmer-container">
-      <button class="shimmer-btn"></button>
-      <div class="shimmer-card-container">
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
-        <div class="shimmer-card"></div>
+    <div className="shimmer-container">
+      <button className="shimmer-btn"></button>
+      <div className="shimmer-card-container">
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
+        <div className="shimmer-card"></div>
       </div>
     </div>
   );
