@@ -4,28 +4,44 @@ class User extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { count: 0, count2: 2 };
+    this.state = { dataInfo: { name: "default" } };
 
-    console.log("Child Constructor");
+    console.log(this.props.name, "Child Constructor");
   }
 
-  componentDidMount() {
-    console.log("child component did mount");
+  async componentDidMount() {
+    console.log(this.props.name, "child component did mount");
+    // const data = await fetch("https://api.github.com/users/shirshakmaurya");
+    // const json = await data.json();
+
+    // this.setState({ dataInfo: json });
+    this.timer = setInterval(() => {
+      console.log("setInterval");
+    }, 1000);
+    this.setState({ dataInfo: { name: "newName" } });
+  }
+
+  componentDidUpdate() {
+    console.log("child componet Did Update");
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+    console.log("Child componentWillUnmount");
   }
 
   render() {
-    console.log("Child Render");
+    console.log(this.props.name, "Child Render");
     return (
-      <div>
-        <h1>Count: {this.state.count}</h1>
-        <button
+      <div className="user-card">
+        <h1>Name:{this.state.dataInfo.name}</h1>
+        {/* <button
           onClick={() => {
-            this.setState({ count: this.state.count + 1 });
+            this.setState({ dataInfo: { name: "newName" } });
           }}
         >
-          Increase Count
-        </button>
-        <h1>Name:{this.props.name}</h1>
+          Change name
+        </button> */}
         <h1>Contact:{"@Tony"}</h1>
       </div>
     );
