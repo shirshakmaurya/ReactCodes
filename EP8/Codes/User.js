@@ -5,8 +5,16 @@ class User extends React.Component {
     super(props);
 
     this.state = { count: 0, count2: 2 };
+
+    console.log("Child Constructor");
   }
+
+  componentDidMount() {
+    console.log("child component did mount");
+  }
+
   render() {
+    console.log("Child Render");
     return (
       <div>
         <h1>Count: {this.state.count}</h1>
