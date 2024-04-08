@@ -1,0 +1,66 @@
+{
+  "info": {
+    "id": "719540",
+    "name": "Manorma",
+    "cloudinaryImageId": "ba40137bd17a05f5872810f5e3b318f4",
+    "locality": "Medanta hospital",
+    "areaName": "Sohna Road",
+    "costForTwo": "₹200 for two",
+    "cuisines": [
+      "North Indian",
+      "Chinese",
+      "Fast Food",
+      "Tandoor",
+      "South Indian",
+      "Biryani"
+    ],
+    "avgRating": 3.8,
+    "parentId": "8908",
+    "avgRatingString": "3.8",
+    "totalRatingsString": "100+",
+    "sla": {
+      "deliveryTime": 35,
+      "lastMileTravel": 3.5,
+      "serviceability": "SERVICEABLE",
+      "slaString": "35-40 mins",
+      "lastMileTravelString": "3.5 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2024-04-08 20:00:00",
+      "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {}
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "₹125 OFF",
+      "subHeader": "ABOVE ₹199",
+      "discountTag": "FLAT DEAL"
+    },
+    "orderabilityCommunication": {
+      "title": {},
+      "subTitle": {},
+      "message": {},
+      "customIcon": {}
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  }
+}
